@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(210, 209, 209);
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+      
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+.main{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 23%;
+}
+button{
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}

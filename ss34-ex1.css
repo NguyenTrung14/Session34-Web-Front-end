@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(210, 209, 209);
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.form{
+    background-color: white;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+label{
+    color: #686663;
+}
+input{
+    width: 100%;
+}
+.button{
+    width: 100%;
+}
